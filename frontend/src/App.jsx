@@ -7,7 +7,7 @@ import io from "socket.io-client";
 
 
 
-const server = "https://collab-draw-1.onrender.com";
+const server = "wss://collab-draw-1.onrender.com";
 
 const socket = io(server);
 
